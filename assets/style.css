@@ -952,10 +952,9 @@ footer .container .footer-service {
   border-bottom: 1px solid #ddd;
   display: flex;
   align-items: center;
+  justify-content: center;
 
   li {
-    width: 0;
-    flex-grow: 1;
     text-align: center;
     border-right: 1px solid #ddd;
 
@@ -963,7 +962,7 @@ footer .container .footer-service {
       display: block;
       text-decoration: none;
       color: #000;
-      padding: 10px;
+      padding: 6px 52px;
       font-size: 0.7rem;
     }
   }
