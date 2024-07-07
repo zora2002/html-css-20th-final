@@ -281,18 +281,18 @@ header .nav .info-list {
   }
 }
 
-.news {
+.section-news {
   width: 100%;
   margin: var(--section-top-bottom-space) 0;
 }
 
-.news .container {
+.section-news .container {
   padding: 0 10px;
   display: flex;
   justify-content: center;
 }
 
-.news .container .side {
+.section-news .container .side {
   display: flex;
   flex-direction: column;
   margin-right: 100px;
@@ -329,7 +329,7 @@ header .nav .info-list {
   }
 }
 
-.news .container ul li {
+.section-news .container ul li {
   padding: 24px 0;
   border-bottom: 1px solid #ddd;
 
@@ -378,15 +378,15 @@ header .nav .info-list {
   }
 }
 
-.news .container ul li:first-child {
+.section-news .container ul li:first-child {
   padding-top: 0;
 }
 
-.topics {
+.section-topics {
   width: 100%;
 }
 
-.topics .container .topic-list {
+.section-topics .container .topic-list {
   display: grid;
   max-width: 100%;
   grid-template-rows: repeat(3, 1fr);
@@ -411,14 +411,14 @@ header .nav .info-list {
   }
 }
 
-.more-topics {
+.section-more-topics {
   width: 100%;
   margin: var(--section-top-bottom-space) 0;
   background-color: #f7f7f7;
 }
 
-.more-topics .button-wrap,
-.experience .button-wrap {
+.section-more-topics .button-wrap,
+.section-experience .button-wrap {
   max-width: calc(1200px + 48px * 4);
   margin: auto;
   display: flex;
@@ -442,7 +442,7 @@ header .nav .info-list {
   }
 }
 
-.experience .button-wrap {
+.section-experience .button-wrap {
   max-width: calc(1200px + 48px * 2);
 
   .button-forward,
@@ -451,7 +451,7 @@ header .nav .info-list {
   }
 }
 
-.more-topics .button-wrap .container {
+.section-more-topics .button-wrap .container {
   width: 100%;
 
   .topic-list {
@@ -482,7 +482,7 @@ header .nav .info-list {
   }
 }
 
-.reserve {
+.section-reserve {
   width: 100%;
   background: url("https://www.snowpeak.co.jp/assets/images/top/bg_experienceportal.jpg")
     center center no-repeat;
@@ -492,7 +492,7 @@ header .nav .info-list {
   color: #fff;
 }
 
-.reserve .container {
+.section-reserve .container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -549,12 +549,12 @@ header .nav .info-list {
   }
 }
 
-.experience {
+.section-experience {
   width: 100%;
   margin: var(--section-top-bottom-space) 0;
 }
 
-.experience article.container {
+.section-experience article.container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -593,7 +593,7 @@ header .nav .info-list {
   }
 }
 
-.experience .button-wrap .container {
+.section-experience .button-wrap .container {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -688,17 +688,17 @@ header .nav .info-list {
   }
 }
 
-.relation {
+.section-relation {
   width: 100%;
   background-color: #f7f7f7;
   padding: 100px 0;
 }
 
-.relation .container {
+.section-relation .container {
   display: flex;
 }
 
-.relation .container .relation-type {
+.section-relation .container .relation-type {
   width: 0;
   flex-grow: 1;
 
@@ -719,7 +719,7 @@ header .nav .info-list {
   }
 }
 
-.relation .container .relation-type:nth-child(1) {
+.section-relation .container .relation-type:nth-child(1) {
   border-right: 1px solid #ddd;
 
   .relation-list {
@@ -758,7 +758,7 @@ header .nav .info-list {
   }
 }
 
-.relation .container .relation-type:nth-child(2) {
+.section-relation .container .relation-type:nth-child(2) {
   .relation-list {
     width: 50%;
     margin: auto;
@@ -789,13 +789,13 @@ header .nav .info-list {
   }
 }
 
-.about {
+.section-about {
   width: 100%;
   background-color: #000;
   color: #fff;
 }
 
-.about .about-list {
+.section-about .about-list {
   display: flex;
 
   .about-item {
@@ -835,13 +835,13 @@ header .nav .info-list {
   }
 }
 
-.about .smaller-container {
+.section-about .smaller-container {
   padding: 80px 0;
   display: flex;
 }
 
-.about .smaller-container .about-contact,
-.about .smaller-container .about-global {
+.section-about .smaller-container .about-contact,
+.section-about .smaller-container .about-global {
   h3 {
     font-size: 1.6rem;
   }
@@ -853,7 +853,7 @@ header .nav .info-list {
   }
 }
 
-.about .smaller-container .about-contact {
+.section-about .smaller-container .about-contact {
   display: flex;
   flex-grow: 1;
   justify-content: space-between;
@@ -902,7 +902,7 @@ header .nav .info-list {
   }
 }
 
-.about .smaller-container .about-global {
+.section-about .smaller-container .about-global {
   a.global-title {
     display: block;
     color: #fff;
