@@ -793,7 +793,8 @@ header .nav .info-list {
   }
 }
 
-.section-about {
+.section-about,
+.section-contact {
   width: 100%;
   background-color: #000;
   color: #fff;
@@ -839,13 +840,13 @@ header .nav .info-list {
   }
 }
 
-.section-about .container {
+.section-contact .container {
   padding: 80px 0;
   display: flex;
 }
 
-.section-about .container .about-contact,
-.section-about .container .about-global {
+.section-contact .container .about-contact,
+.section-contact .container .about-global {
   h3 {
     font-size: 1.6rem;
   }
@@ -857,7 +858,7 @@ header .nav .info-list {
   }
 }
 
-.section-about .container .about-contact {
+.section-contact .container .about-contact {
   display: flex;
   flex-grow: 1;
   justify-content: space-between;
@@ -906,7 +907,7 @@ header .nav .info-list {
   }
 }
 
-.section-about .container .about-global {
+.section-contact .container .about-global {
   a.global-title {
     display: block;
     color: #fff;
