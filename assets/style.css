@@ -475,7 +475,7 @@ header .nav .info-list {
   width: 100%;
   background: url("https://www.snowpeak.co.jp/assets/images/top/bg_experienceportal.jpg")
     center center no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-color: rgba(0, 0, 0, 0.3);
   background-blend-mode: multiply;
   color: #fff;
