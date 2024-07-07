@@ -287,7 +287,6 @@ header .nav .info-list {
 }
 
 .section-news .container {
-  padding: 0 10px;
   display: flex;
   justify-content: center;
 }
