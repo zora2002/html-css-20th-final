@@ -53,12 +53,12 @@ a:hover {
   --section-top-bottom-space: 140px;
 }
 
-header {
+header.page-header {
   width: 100%;
   position: relative;
 }
 
-header .bar {
+header.page-header .bar {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -152,7 +152,7 @@ header .bar {
   }
 }
 
-header .banner-list {
+header.page-header .banner-list {
   width: 100%;
   height: calc(100vh - var(--service-list-height));
 
@@ -173,7 +173,7 @@ header .banner-list {
   }
 }
 
-header .nav .service-list {
+header.page-header .nav .service-list {
   width: 100%;
   height: var(--service-list-height);
   display: flex;
@@ -251,7 +251,7 @@ header .nav .service-list {
   }
 }
 
-header .nav .info-list {
+header.page-header .nav .info-list {
   width: 100%;
   display: flex;
   justify-content: center;
