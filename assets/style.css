@@ -283,7 +283,7 @@ header .nav .info-list {
 
 .section-news {
   width: 100%;
-  margin: var(--section-top-bottom-space) 0;
+  padding: var(--section-top-bottom-space) 0;
 }
 
 .section-news .container {
@@ -413,7 +413,7 @@ header .nav .info-list {
 
 .section-more-topics {
   width: 100%;
-  margin: var(--section-top-bottom-space) 0;
+  padding: var(--section-top-bottom-space) 0;
   background-color: #f7f7f7;
 }
 
@@ -551,7 +551,7 @@ header .nav .info-list {
 
 .section-experience {
   width: 100%;
-  margin: var(--section-top-bottom-space) 0;
+  padding: var(--section-top-bottom-space) 0;
 }
 
 .section-experience article.container {
@@ -691,7 +691,7 @@ header .nav .info-list {
 .section-relation {
   width: 100%;
   background-color: #f7f7f7;
-  padding: 100px 0;
+  padding: var(--section-top-bottom-space) 0;
 }
 
 .section-relation .container {
