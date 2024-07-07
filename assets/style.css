@@ -479,13 +479,13 @@ header .nav .info-list {
   background-color: rgba(0, 0, 0, 0.3);
   background-blend-mode: multiply;
   color: #fff;
+  padding: var(--section-top-bottom-space) 0;
 }
 
 .section-reserve .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 140px 0;
 
   span {
     font-size: 0.9rem;
