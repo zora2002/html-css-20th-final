@@ -500,6 +500,9 @@ header.page-header .bar .logo h1,
   align-items: center;
 
   .main-title {
+    display: flex;
+    flex-direction: column-reverse;
+
     span {
       font-size: 0.9rem;
       display: block;
