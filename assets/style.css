@@ -276,6 +276,16 @@ header.page-header .nav .info-list {
   }
 }
 
+header.page-header .bar .logo h1,
+.section-topics .container h3.main-title,
+.section-more-topics .main-title, 
+.section-relation .container h3.main-title{
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+}
+
 .section-news {
   width: 100%;
   padding: var(--section-top-bottom-space) 0;
@@ -382,14 +392,7 @@ header.page-header .nav .info-list {
   width: 100%;
 }
 
-.section-topics .container h3.main-title,
-.section-more-topics .main-title, 
-.section-relation .container h3.main-title{
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-}
+
 
 .section-topics .container .main-content.topic-list {
   display: grid;
