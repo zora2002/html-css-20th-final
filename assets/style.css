@@ -414,45 +414,36 @@ header .nav .info-list {
 .section-more-topics {
   width: 100%;
   padding: var(--section-top-bottom-space) 0;
-  background-color: #f7f7f7;
 }
 
 .section-more-topics .button-wrap,
 .section-experience .button-wrap {
-  max-width: calc(1200px + 48px * 4);
+  width: 100%;
   margin: auto;
   display: flex;
+  justify-content: center;
   align-items: center;
-
-  .button-forward {
-    transform: rotate(180deg);
-    margin-right: 48px;
-  }
-
-  .button-backward {
-    margin-left: 48px;
-  }
 
   .button-forward,
   .button-backward {
-    flex-shrink: 0;
     cursor: pointer;
     width: 48px;
     height: 48px;
+    margin: 0 30px;
+  }
+
+  .button-forward {
+    transform: rotate(180deg);
   }
 }
 
-.section-experience .button-wrap {
-  max-width: calc(1200px + 48px * 2);
-
-  .button-forward,
-  .button-backward {
-    margin: 0;
-  }
+.section-more-topics .button-wrap {
+  background-color: #f7f7f7;
 }
 
 .section-more-topics .button-wrap .container {
   width: 100%;
+  margin: 0;
 
   .topic-list {
     margin: 120px 0;
@@ -595,11 +586,12 @@ header .nav .info-list {
 
 .section-experience .button-wrap .container {
   width: 100%;
+  margin: 0;
   display: flex;
   justify-content: center;
 
   .experience-list {
-    width: 96%;
+    width: 100%;
     display: flex;
     justify-content: center;
 
